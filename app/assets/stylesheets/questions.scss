@@ -1,0 +1,37 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$font-stack:    Helvetica, sans-serif;
+
+body {
+  font: 100% $font-stack;
+}
+
+#input {
+  display: block;
+  padding: 6px 12px;
+  border-left-color: #d3d3d3;
+  border-left-style: solid;
+}
+
+#answer {
+  display: block;
+  padding: 6px 12px;
+  background-color: #ffffe0;
+  border-left-color: #d3d3d3;
+  border-left-style: solid;
+}
+
+p {
+  font-style: italic;
+}
+
+#link {
+  display: block;
+  padding: 6px 12px;
+}
+
+// Need to add an a-tag around the link as otherwise text decoration doesn't work
+a {
+  text-decoration: none;
+}
